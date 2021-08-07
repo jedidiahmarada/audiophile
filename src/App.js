@@ -1,23 +1,16 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 
+=======
+import logo from "./logo.svg";
+import categoryEarphone from "../src/components/Category-Earphone/categoryEarphone";
+>>>>>>> bf076ea1fb107bc63ffcfabc040de32210d752ab
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <categoryEarphone />
+      <h1>Category</h1>
     </div>
   );
 }
