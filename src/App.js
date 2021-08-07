@@ -1,13 +1,20 @@
 // import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import categoryEarphone from "../src/components/Category-Earphone/categoryEarphone";
+import HomePage from "./layouts/HomePage/homePage";
 
 function App() {
   return (
-    <div className="App">
-      <categoryEarphone />
-      <h1>Category</h1>
-    </div>
+    <> 
+      <BrowserRouter>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={HomePage}/>
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
