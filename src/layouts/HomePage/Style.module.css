@@ -1,0 +1,72 @@
+.card {
+	position: relative;
+	width: 1110px;
+	height: 560px;
+	left: 165px;
+	/* top: 0px; */
+	background: #d87d4a;
+	border-radius: 8px;
+	flex-direction: column;
+}
+
+.speakerLayout {
+	position: absolute;
+	width: 410.23px;
+	height: 493px;
+	left: 282.49px;
+	/* top: 1397px;  */
+}
+
+.descTitle {
+	position: absolute;
+	/* height: 116px; */
+	left: 0%;
+	right: 25.21%;
+	top: calc(50% - 116px / 2 - 93.5px);
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 58px;
+	/* or 104% */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.descP {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 46.2%;
+	bottom: 29.04%;
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 200;
+	/* font-size: 15px; */
+	line-height: 25px;
+	/* or 167% */
+	color: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.descButton {
+	position: absolute;
+	background: #4c4c4c;
+	width: 160px;
+	height: 48px;
+	/* position: absolute; */
+	/* height: 18px; */
+	left: 19.69%;
+	right: 18.44%;
+	top: calc(50% - 18px / 2);
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
