@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.outerContainer {
+  width: 350px;
+  height: auto;
+  padding: 32px;
+  background-color: #fff;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.itemNameCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 0px;
+}
+
+.itemText {
+  flex: 1;
+}
+
+#price {
+  line-height: 0px;
+  font-weight: bold;
+  color: #888888;
+  font-size: 1rem;
+}
+
+#itemName {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#itemAmount {
+  font-weight: bold;
+  color: #888888;
+  font-size: 1.2rem;
+}
+
+.paymentDescCont {
+  margin-bottom: 32px;
+}
+
+.paymentTextCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 0px;
+}
+
+#greyText {
+  color: #888888;
+  font-size: 1.2rem;
+}
+
+#boldText {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#orangeText {
+  color: #d87d4a;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+button {
+  flex: 1;
+  background-color: #d87d4a;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  cursor: pointer;
+}
