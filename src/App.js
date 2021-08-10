@@ -8,14 +8,15 @@ import ProductDetail from './layouts/ProductDetail-Speaker/PDSpeaker'
 function App() {
   return (
     <> 
-      <BrowserRouter>
-        <div className="App">
-          <Switch>
-            <Route exact path="/" component={HomePage}/>
-            <Route exact path="/" component={ProductDetail}/>
-          </Switch>
-        </div>
-      </BrowserRouter>
+      {/*<BrowserRouter>*/}
+      {/*  <div className="App">*/}
+      {/*    <Switch>*/}
+      {/*      <Route exact path="/" component={HomePage}/>*/}
+      {/*      <Route exact path="/" component={ProductDetail}/>*/}
+      {/*    </Switch>*/}
+      {/*  </div>*/}
+      {/*</BrowserRouter>*/}
+      <ProductDetail/>
     </>
   );
 }
